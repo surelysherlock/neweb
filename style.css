@@ -1,0 +1,103 @@
+*{
+    
+}
+
+html,body,h1,h2,h3,p,ol,ul,li,a{
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+
+body {
+    margin: 3em;
+    width: 100%;
+    
+}
+
+div h1 {
+	font-family: Verdana, serif;
+    margin: 20px;
+    padding-left: 10px;
+    border-left: 40px solid aqua;
+    background-color: #40b0c4;
+    max-width: 600px;
+    height: 44px;
+}
+div p {
+	font-family: Verdana, serif;
+	justify-content: center;
+    width: auto;
+    max-width: 1000px;
+    margin: 1em;
+}
+.navbar {
+    width: 100%;
+    padding: 10px;
+    z-index: 1;
+    position: relative;
+    margin: 20px 30px;
+}
+
+
+.navbar li a {
+    color: black;
+	text-decoration: none;
+	text-align: center;
+	padding: 4px 30px;
+	border-radius: 5px;
+
+}
+
+.navbar li a:hover {
+    color: #162310;
+    background-color: rgba(160, 213, 222, 0.44);
+	border-radius: 5px;
+}
+
+.nav_container ul {
+	list-style-type: none;
+    float: left;
+}
+
+ img {
+   max-width: 500px;
+   align-content: center;
+}
+
+.nav_container {
+    display: table;
+    height: 20px;
+    background-color: azure;
+}
+
+.nav_container li {
+    float: left;    
+}
+
+.gallery li {
+    display: table-cell;
+    list-style-type: none;
+    float: left;
+    width: 33.3%;
+    clear: right;
+}
+
+.gallery ul {
+    display: table;
+    
+}
+
+@media (min-width: 640px) {
+    html { font-size: 112%}
+}
+
+@media (min-width: 1024px) {
+    html { font-size: 120%}
+}
+
+
+.container {
+    margin: 0 auto;
+    float: left;
+    max-width: 80rem;
+}
